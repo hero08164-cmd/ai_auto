@@ -14,7 +14,7 @@ import {
 
 cron.schedule(
 
-  '0 18 * * *',
+  '* * * * *',
 
   async () => {
 
@@ -110,6 +110,10 @@ cron.schedule(
 
     }
 
+  },
+
+  {
+    timezone: 'Asia/Kolkata'
   }
 
 )
