@@ -14,7 +14,7 @@ import {
 
 cron.schedule(
 
-  '0 18 * * *',
+  '0 19 * * *',
 
   async () => {
 
