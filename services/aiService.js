@@ -55,7 +55,7 @@ Rules:
 
       if (!aiTitle) {
 
-        return `🔥 वायरल वीडियो 😱`
+        return `Hydraulic Press vs Red Hot Metal 😱🔥 | So Satisfying to Watch! 💥`
 
       }
 
@@ -68,7 +68,7 @@ Rules:
         error.message
       )
 
-      return `🔥 वायरल वीडियो 😱`
+      return `Hydraulic Press vs Red Hot Metal 😱🔥 | So Satisfying to Watch! 💥`
 
     }
 
