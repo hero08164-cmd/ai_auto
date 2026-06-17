@@ -2,10 +2,12 @@ import cron from 'node-cron'
 import Video from '../models/Video.js'
 import cloudinary from '../utils/cloudinary.js'
 import { makeVideoPublic } from '../services/youtubeService.js'
-// ======================
-// SCHEDULED - 1:20 PM IST = 7:50 AM UTC
-cron.schedule('50 7 * * *', async () => {
 
+// ======================
+// TEST - 1:32 PM IST = 8:02 AM UTC
+// ======================
+
+cron.schedule('2 8 * * *', async () => {
 
   console.log('======================')
   console.log('PUBLISH CRON STARTED')
