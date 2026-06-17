@@ -4,10 +4,10 @@ import cloudinary from '../utils/cloudinary.js'
 import { makeVideoPublic } from '../services/youtubeService.js'
 
 // ======================
-// TEST - 1:52 PM IST = 8:22 AM UTC
+// TEST - 4:10 PM IST = 10:40 AM UTC
 // ======================
 
-cron.schedule('22 8 * * *', async () => {
+cron.schedule('40 10 * * *', async () => {
 
   console.log('======================')
   console.log('PUBLISH CRON STARTED')
