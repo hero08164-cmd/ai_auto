@@ -1,8 +1,7 @@
 import cron from 'node-cron'
 import Video from '../models/Video.js'
 import cloudinary from '../utils/cloudinary.js'
-import { makeVideoPublic } from '../utils/youtube.js'
-
+import { makeVideoPublic } from '../services/youtubeService.js'
 // ======================
 // SCHEDULED - 1:20 PM IST = 7:50 AM UTC
 cron.schedule('50 7 * * *', async () => {
